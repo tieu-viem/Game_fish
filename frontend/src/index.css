@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 10;
+  overflow: hidden; /* Prevent scrollbars */
+  background-image: url('/public/images/bg1.png');
+  margin-right: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 10px;
+}
+
+h1 {
+  color: #6e34dbe0;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7); /* Bolder 3D text shadow */
+}
+h2 {
+  color: #34dbb48f;
+  font-family: 'Times New Roman', serif;
+  margin :10px;
+  text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7); /* Bolder 3D text shadow */
+}
+
+h3 {
+  color: #34dbb48f;
+  font-family: 'Times New Roman', serif;
+  margin :10px;
+  text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7); /* Bolder 3D text shadow */
+}
+
+p {
+  color: #2ecc71; /* Set a different color for your paragraphs */
+  margin: 10px;
+  font-family: 'Times New Roman', serif;
+  
+  text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.288); /* Bolder 3D text shadow */
+
+}
+
+/* You can add more styles based on your game's elements */
